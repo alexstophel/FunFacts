@@ -24,10 +24,9 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
-    @IBAction func changeRandomFact(sender: AnyObject) {
+    @IBAction func changeRandomFact(_ sender: AnyObject) {
         view.backgroundColor = colorModel.getRandomColor()
         factLabel.text = factModel.getRandomFact()
     }
 
 }
-
